@@ -1,0 +1,25 @@
+
+.image-link {
+  text-decoration: none;
+  color: black;
+}
+
+.image-card {
+  width: 200px;
+  height: 180px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-card img {
+  width: 200px;
+  height: 130px;
+  object-fit: contain;
+  display: block;
+}
+
+.image-card h2 {
+  margin: 5px;
+  font-size: 14px;
+}

@@ -1,0 +1,37 @@
+.image-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.image-form input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.image-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.image-form button:hover {
+  background-color: #555;
+}
+
+@media (max-width: 600px) {
+  .image-form {
+    flex-direction: column;
+  }
+
+  .image-form input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
